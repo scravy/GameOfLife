@@ -1,0 +1,22 @@
+Name:           GameOfLife
+Version:        1.0
+Synopsis:       Bounce. Bounce. Bounce.
+Description:    Bounce around.
+               
+License:        MIT
+License-File:   LICENSE
+Author:         Julian Fleischer
+Maintainer:     julian.fleischer@fu-berlin.de
+Build-Type:     Simple
+Cabal-Version:  >= 1.10
+Category:       Utility
+Stability:      provisional
+
+Extra-Source-Files: glidergun.txt, spaceships.txt
+
+Executable GameOfLife
+    Main-Is:            GameOfLife.hs
+    Other-Modules:      World, Bitfield
+    Build-Depends:      base >= 3 && < 5, gloss
+    default-language:   Haskell2010
+
