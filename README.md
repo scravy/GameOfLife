@@ -1,4 +1,4 @@
-    # Game of Life
+# Game of Life
 
 An implementation of the [Conway's Game of Life](http://en.wikipedia.org/wiki/Conway's_Game_of_Life) written in [Haskell](http://www.haskell.org/) using the [Gloss library](https://hackage.haskell.org/package/gloss).
 
