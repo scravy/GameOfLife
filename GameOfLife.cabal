@@ -17,6 +17,6 @@ Extra-Source-Files: glidergun.txt, spaceships.txt
 Executable GameOfLife
     Main-Is:            GameOfLife.hs
     Other-Modules:      World, Bitfield
-    Build-Depends:      base >= 3 && < 5, gloss
+    Build-Depends:      base == 4.*, gloss
     default-language:   Haskell2010
 
