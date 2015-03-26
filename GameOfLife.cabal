@@ -19,7 +19,3 @@ Executable GameOfLife
     Other-Modules:      World, Bitfield
     Build-Depends:      base == 4.*, gloss
     default-language:   Haskell2010
-
-    If impl(ghc < 7.6)
-        Build-Depends:  gloss < 1.6
-
