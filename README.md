@@ -8,6 +8,8 @@ An implementation of [Conway's Game of Life](http://en.wikipedia.org/wiki/Conway
 
 Install the [Haskell Platform](http://www.haskell.org/platform) first.
 
+Then do:
+
     git clone https://github.com/scravy/GameOfLife.git
     cabal run
 
